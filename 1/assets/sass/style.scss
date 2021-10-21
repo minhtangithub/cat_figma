@@ -1,0 +1,237 @@
+$gray-text: #5E6282;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    position: relative;
+    .hero__nav-container {
+        padding: 47px 200px 18px 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hero__logo{
+
+        }
+        .hero__nav{
+            ul {
+                display: flex;
+            }
+            .hero__nav-item{
+                padding-left: 60px;
+                font-size: 17px;
+                color: #212832;
+            }
+        }
+    }
+
+    .hero__bg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+}
+
+.hero__content{
+    display: flex;
+    position: relative;
+    .hero__text{
+        width: 50%;
+        padding-top: 127px;
+        padding-left: 150px;
+        h3 {
+            color: #DF6951;
+            text-transform: uppercase;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+
+        h1 {
+            margin-top: 24px;
+            margin-bottom: 30px;
+            font-family: 'Volkhov', serif;
+            font-weight: 700;
+            font-size: 84px;
+            line-height: 89px;
+            position: relative;
+            letter-spacing: -3px;
+            span {
+                position: absolute;
+                right: 0;
+                transform: translateX(50px) translateY(10px);
+                z-index: -1;
+            }
+        }
+        p {
+            color: $gray-text;
+            line-height: 30px;
+            width: calc(250%/3);
+        }
+
+    }
+    .hero__text__btns{
+    
+    }
+    .play-demo{
+
+    }
+    .hero__img{
+        position: absolute;
+        right: 10%;
+    }
+}
+
+
+
+
+.service{
+
+}
+.service__content{
+
+}
+.service__content__list{
+
+}
+.service__content__item{
+
+}
+.active{
+
+}
+.service__decor{
+
+}
+.destinations{
+
+}
+.desinations__list{
+
+}
+.destinations__item{
+
+}
+.destinations__item__infor{
+
+}
+.name-and-price{
+
+}
+.name{
+
+}
+.price{
+
+}
+.length{
+
+}
+.destinations__decor{
+
+}
+.bookings{
+
+}
+.booking__content{
+
+}
+.booking__steps{
+
+}
+.booking__steps__item{
+
+}
+.booking__step__infor{
+
+}
+.booking__img{
+
+}
+.feedback{
+
+}
+.feedback__left{
+
+}
+.feedback__dots{
+
+}
+.dot{
+
+}
+.feedback__right{
+
+}
+.feedback__content{
+
+}
+.avatar{
+
+}
+.user{
+
+}
+.user1{
+
+}
+.user2{
+
+}
+.feedback__pagination{
+
+}
+.sponsor{
+
+}
+.sponsor__item{
+
+}
+.subscribe{
+
+}
+.footer__container{
+
+}
+.logo-container{
+
+}
+.logo{
+
+}
+.footer__content{
+
+}
+.footer__col{
+
+}
+.footer__contact{
+
+}
+.social{
+
+}
+.download{
+
+}
+.service__content__item.active{
+
+}
+.user.user1{
+
+}
+.user.user2{
+
+}

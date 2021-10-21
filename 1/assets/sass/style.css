@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .hero__nav-container {
+  padding: 47px 200px 18px 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero__nav-container .hero__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .hero__nav-container .hero__nav .hero__nav-item {
+  padding-left: 60px;
+  font-size: 17px;
+  color: #212832;
+}
+
+.hero .hero__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.hero__content .hero__text {
+  width: 50%;
+  padding-top: 127px;
+  padding-left: 150px;
+}
+
+.hero__content .hero__text h3 {
+  color: #DF6951;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.hero__content .hero__text h1 {
+  margin-top: 24px;
+  margin-bottom: 30px;
+  font-family: 'Volkhov', serif;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 89px;
+  position: relative;
+  letter-spacing: -3px;
+}
+
+.hero__content .hero__text h1 span {
+  position: absolute;
+  right: 0;
+  -webkit-transform: translateX(50px) translateY(10px);
+          transform: translateX(50px) translateY(10px);
+  z-index: -1;
+}
+
+.hero__content .hero__text p {
+  color: #5E6282;
+  line-height: 30px;
+  width: calc(250%/3);
+}
+
+.hero__content .hero__img {
+  position: absolute;
+  right: 10%;
+}
+/*# sourceMappingURL=style.css.map */
